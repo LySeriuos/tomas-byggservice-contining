@@ -94,7 +94,7 @@
          width: 100%;
          
           }
-         
+         /* Index.html */
      .container {
      display: grid;
      min-height: 80vh;
@@ -103,6 +103,11 @@
      align-items: center;
      justify-content: center;
      align-content: center;   
+     }
+     .container li h3 {
+         font-size: 2rem;
+         font-family: "Exo", sans-serif;
+         font-weight: 300;
      }
 
      .text-align {
