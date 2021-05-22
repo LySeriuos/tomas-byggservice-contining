@@ -13,7 +13,6 @@
       "**/.gitp*": true,
       "**/.hg": true,
       "**/.svn": true,
-      "**/.vscode": true,
       "**/core.Microsoft*": true,
       "**/core.mongo*": true,
       "**/core.python*": true,
