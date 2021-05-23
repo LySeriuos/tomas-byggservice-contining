@@ -22,12 +22,13 @@
      .navbar .nav-item.active .nav-link {
          color: #B9994A;
     }
-      
-     
-}
      .navbar-toggler {
          background-color: #ffffff;
-     }
+    }
+     .navbar-nav > li{
+         margin-left:5px;
+         margin-right:5px;
+    }
 
      footer {
          color: #ffffff;
@@ -122,7 +123,7 @@
          /* Index.html */
      .container {
      display: grid;
-     min-height: 90vh;
+     min-height: 80vh;
      grid-gap: 20px;
      justify-items: center;
      align-items: center;
@@ -148,9 +149,7 @@
           white-space: nowrap;                
     }
 
-    .try-one {
-        max-width: 600px;
-    }
+    
     
 
     .line-style {
@@ -212,6 +211,28 @@ main .container a:hover {
     font-size: 24px;
     padding: 0;
   }
+  .container-mine {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 100px;
+  grid-row-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+ .row .col-lg-6  {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+  
 
 
 
@@ -348,3 +369,4 @@ main .container a:hover {
 .hero-inner {
     max-width: 760px;
 }
+
