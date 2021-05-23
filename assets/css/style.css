@@ -20,8 +20,11 @@
         color: #ffffff;
     }
      .navbar .nav-item.active .nav-link {
-         color: #775a5a;
-     }
+         color: #B9994A;
+    }
+      
+     
+}
      .navbar-toggler {
          background-color: #ffffff;
      }
@@ -142,8 +145,7 @@
           border-right: 0;
           text-align: center;
           margin-top: 50px;
-          white-space: nowrap;  
-              
+          white-space: nowrap;                
     }
 
     .try-one {
